@@ -38,19 +38,19 @@ export const RANKS: Rank[] = [
     value: "T",
   },
   {
-    name: "Jack",
+    name: "J",
     value: "J",
   },
   {
-    name: "Queen",
+    name: "Q",
     value: "Q",
   },
   {
-    name: "King",
+    name: "K",
     value: "K",
   },
   {
-    name: "Ace",
+    name: "A",
     value: "A",
   },
 ];
