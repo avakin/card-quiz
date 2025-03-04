@@ -12,7 +12,7 @@ export const GameCard = (props: Card) => {
           color: suit.color,
         }}
       >
-        {rank.value}
+        {rank.name}
       </div>
       <div
         className={styles.suit}

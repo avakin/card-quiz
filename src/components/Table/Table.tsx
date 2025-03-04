@@ -3,7 +3,7 @@ import { Card, Hand } from "@lib/types/cards";
 
 import styles from "./Table.module.css";
 
-export const Table = ({ cards }: { cards: Hand }) => {
+export const Table = ({ cards = [] }: { cards: Hand }) => {
   return (
     <div className={styles.table}>
       {cards.map((el: Card) => (
